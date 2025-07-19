@@ -1,0 +1,67 @@
+.RowPost{
+    display: flex;
+    flex-direction: column;
+
+}
+.RowPost >h2{
+    color: antiquewhite;
+    margin-left: 20px;
+    font-size: xx-large;
+    
+}
+.post{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   scroll-behavior: smooth;
+   height: 423px;
+   padding-top: 20px;
+   
+ 
+    
+}
+.poster{
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: center;
+    
+   
+    
+}
+.post::-webkit-scrollbar{
+    display: none;
+   
+}
+.posterImage{
+}
+.poster:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+    
+}
+.raiting{
+
+    height: 25px;
+  width: 25px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+position: relative;
+float: right;
+ margin-top: -20px;
+ margin-right: -11px;
+ color:  brown;
+ border:5px solid;
+
+}
+
+    
+
+.PosterImageTitle{
+    color:antiquewhite;
+    font-weight: 500;
+    font-size: larger;
+}
+.PosterImageRelaseDate{
+    color:antiquewhite;
+    font-weight: 300;
+}

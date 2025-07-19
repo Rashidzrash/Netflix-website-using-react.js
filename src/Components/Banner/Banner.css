@@ -1,0 +1,65 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+
+  justify-content: flex-end;
+
+  /* background-image: url('https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXXA5fNLWIn-Sc5PksYb8eAfM_RWfVGukbukObT-bATmjkxpqCEbwHnTGdEDIjFEnLZomBXkDXKmw3Xv4dINxRmCNoGCWqtvsl32.jpg?r=b29&quot'); */
+}
+
+.content > h1 {
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 60px;
+}
+.content {
+  color: antiquewhite;
+  max-width: 600px;
+  padding-left: 30px;
+  margin-top: 6px;
+}
+
+.bannerbuttons {
+  padding-left: 30px;
+}
+.bannerbuttons > button {
+  margin-right: 20px;
+  width: 90px;
+  height: 40px;
+  font-weight: 540;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: antiquewhite;
+  background-color: rgb(51, 51, 51, 0.5);
+  cursor: pointer;
+}
+.bannerbuttons > button:hover {
+  background-color: rgba(98, 97, 97, 0.5);
+  transition: 0.2s ease-in;
+}
+.shadow {
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(22, 22, 22, 0.61),
+    #111
+  );
+  height: 8.4rem;
+  margin-top: 140px;
+}
+.youtube {
+  position: absolute;
+  display: flex;
+  right: 0;
+}
+.youtube > button {
+  background-color: transparent;
+  position: absolute;
+  color: rgb(191, 169, 169);
+  cursor: pointer;
+  font-size: medium;
+  margin-top: 5px;
+  border: none;
+}
